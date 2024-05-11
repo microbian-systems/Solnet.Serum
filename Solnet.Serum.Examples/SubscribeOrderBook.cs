@@ -13,7 +13,7 @@ namespace Solnet.Serum.Examples
     {
         private readonly ISerumClient _serumClient;
 
-        private static Dictionary<string, string> Markets = new Dictionary<string, string>()
+        private static Dictionary<string, string> Markets = new()
         {
             {"SXP/USDC", "4LUro5jaPaTurXK737QAxgJywdhABnFAMQkXX4ZyqqaZ"},
             {"SOL/USDC", "9wFFyRfZBsuAha4YcuxcXLKwMxJR43S7fPfQLusDBzvT"},/*
